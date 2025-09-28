@@ -19,7 +19,6 @@
 
 - [🎯 Sobre o Projeto](#-sobre-o-projeto)
 - [🚀 Obter Chave API Beta](#-obter-chave-api-beta)
-- [🛠️ Instalação](#️-instalação)
 - [⚙️ Configuração](#️-configuração)
 - [📖 Documentação da API](#-documentação-da-api)
 - [🔧 Desenvolvimento](#-desenvolvimento)
@@ -70,33 +69,6 @@ Durante a fase beta, oferecemos **chaves API completamente gratuitas** com acess
 Após obter a sua chave, consulte as [Instruções Detalhadas](https://50capi.csmanager.ovh/beta_instructions.php) para começar a usar a API.
 
 ---
-
-## 🛠️ Instalação
-
-### 📋 Pré-requisitos
-
-- **Windows 10/11** (64-bit)
-- **.NET 8.0 Runtime** ou superior
-- **SQL Server** (LocalDB incluído)
-- **Ligação à Internet** (para validação de licenças)
-
-### 📥 Download e Instalação
-
-1. **Clone o Repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/CSMSageAPI.git
-   cd CSMSageAPI
-   ```
-
-2. **Compile o Projeto**:
-   ```bash
-   dotnet build CSMSage/CSMSage.csproj
-   ```
-
-3. **Execute a Aplicação**:
-   ```bash
-   dotnet run --project CSMSage/CSMSage.csproj
-   ```
 
 ### 🎯 Instalação Rápida
 
@@ -157,35 +129,6 @@ private const int DEFAULT_PORT = 8080; // Altere conforme necessário
 
 ---
 
-## 📖 Documentação da API
-
-### 🔗 Endpoints Principais
-
-#### 👥 Gestão de Clientes
-```
-GET    /api/customers          # Listar clientes
-POST   /api/customers          # Criar cliente
-GET    /api/customers/{id}     # Obter cliente
-PUT    /api/customers/{id}     # Atualizar cliente
-DELETE /api/customers/{id}     # Eliminar cliente
-```
-
-#### 📦 Gestão de Produtos
-```
-GET    /api/items              # Listar produtos
-POST   /api/items              # Criar produto
-GET    /api/items/{id}         # Obter produto
-PUT    /api/items/{id}         # Atualizar produto
-DELETE /api/items/{id}         # Eliminar produto
-```
-
-#### 📊 Transações de Stock
-```
-GET    /api/stock-transactions  # Listar transações
-POST   /api/stock-transactions  # Criar transação
-GET    /api/stock-transactions/{id} # Obter transação
-```
-
 ### 🔐 Autenticação
 
 Todas as chamadas à API requerem autenticação via chave API:
@@ -215,144 +158,16 @@ const api = axios.create({
     }
 });
 
-// Criar cliente
-const novoCliente = await api.post('/customers', {
-    name: 'João Silva',
-    email: 'joao@exemplo.com',
-    phone: '+351 123 456 789'
-});
-```
-
-#### Python
-```python
-import requests
-
-headers = {
-    'X-API-Key': 'SUA-CHAVE-API-AQUI',
-    'Content-Type': 'application/json'
-}
-
-# Criar cliente
-response = requests.post(
-    'http://localhost:8080/api/customers',
-    headers=headers,
-    json={
-        'name': 'João Silva',
-        'email': 'joao@exemplo.com',
-        'phone': '+351 123 456 789'
-    }
-)
-```
-
-#### C#
-```csharp
-using System.Net.Http;
-using Newtonsoft.Json;
-
-var client = new HttpClient();
-client.DefaultRequestHeaders.Add("X-API-Key", "SUA-CHAVE-API-AQUI");
-
-var novoCliente = new {
-    name = "João Silva",
-    email = "joao@exemplo.com",
-    phone = "+351 123 456 789"
-};
-
-var json = JsonConvert.SerializeObject(novoCliente);
-var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-var response = await client.PostAsync("http://localhost:8080/api/customers", content);
-```
-
----
-
-## 🔧 Desenvolvimento
-
-### 🏗️ Estrutura do Projeto
-
-```
-CSMSageAPI/
-├── CSMSage/                    # Aplicação principal
-│   ├── Controllers/            # Controladores da API
-│   ├── Models/                 # Modelos de dados
-│   ├── Services/               # Serviços de negócio
-│   ├── Helpers/                # Utilitários
-│   └── Program.cs              # Ponto de entrada
-├── Common/                     # Bibliotecas comuns
-├── license_panel/              # Painel de gestão de licenças
-└── README.md                   # Este arquivo
-```
-
-### 🛠️ Tecnologias Utilizadas
-
-- **C# .NET 8.0**: Linguagem principal
-- **ASP.NET Web API**: Framework da API
-- **Entity Framework**: ORM para base de dados
-- **Windows Forms**: Interface gráfica
-- **Swagger/OpenAPI**: Documentação da API
-- **Newtonsoft.Json**: Serialização JSON
-- **SQL Server LocalDB**: Base de dados local
-
-### 🔨 Compilação
-
-```bash
-# Restaurar dependências
-dotnet restore
-
-# Compilar em Debug
-dotnet build --configuration Debug
-
-# Compilar em Release
-dotnet build --configuration Release
-
-# Executar testes
-dotnet test
-```
-
-### 📦 Dependências Principais
-
-```xml
-<PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.7" />
-<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-<PackageReference Include="Swashbuckle" Version="5.6.0" />
-```
-
 ---
 
 ## 📞 Suporte
 
 ### 🆘 Obter Ajuda
 
-- **📧 Email**: suporte@csmsage.com
+- **📧 Email**: opmeso@gmail.com
 - **📞 Telefone**: +351 XXX XXX XXX
-- **🌐 Website**: [www.csmsage.com](https://www.csmsage.com)
+- **🌐 Website**: [[www.csmsage.com](https://50capi.csmanager.ovh/)]([https://www.csmsage.com](https://50capi.csmanager.ovh/))
 - **💬 GitHub Issues**: [Reportar Problemas](https://github.com/seu-usuario/CSMSageAPI/issues)
-
-### 📚 Recursos Adicionais
-
-- **📖 Documentação Completa**: [docs.csmsage.com](https://docs.csmsage.com)
-- **🎥 Tutoriais em Vídeo**: [YouTube Channel](https://youtube.com/csmsage)
-- **💬 Comunidade**: [Discord Server](https://discord.gg/csmsage)
-- **📰 Blog**: [blog.csmsage.com](https://blog.csmsage.com)
-
-### 🐛 Reportar Bugs
-
-Ao reportar problemas, inclua:
-
-1. **Versão do Sistema**: Windows 10/11
-2. **Versão da Aplicação**: Visível no menu "Sobre"
-3. **Passos para Reproduzir**: Descrição detalhada
-4. **Logs de Erro**: Se disponíveis
-5. **Screenshot**: Se aplicável
-
-### 💡 Sugestões de Melhorias
-
-Estamos sempre abertos a sugestões! Use as [GitHub Issues](https://github.com/seu-usuario/CSMSageAPI/issues) para:
-
-- 🆕 Novas funcionalidades
-- 🔧 Melhorias de performance
-- 🎨 Melhorias de interface
-- 📖 Melhorias na documentação
 
 ---
 
