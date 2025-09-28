@@ -134,20 +134,6 @@ X-API-Key: SUA-CHAVE-API-AQUI
 
 ```
 
-### 📝 Exemplo de Uso
-
-#### JavaScript/Node.js
-```javascript
-const axios = require('axios');
-
-const api = axios.create({
-    baseURL: 'http://localhost:8080/api',
-    headers: {
-        'X-API-Key': 'SUA-CHAVE-API-AQUI',
-        'Content-Type': 'application/json'
-    }
-});
-```
 ---
 
 ## 📞 Suporte
