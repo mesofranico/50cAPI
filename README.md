@@ -116,15 +116,6 @@ Para uma instalação mais simples, pode executar diretamente o executável:
 private const int DEFAULT_PORT = 8080; // Altere conforme necessário
 ```
 
-#### 🗄️ Base de Dados
-```csharp
-// Em app.config
-<connectionStrings>
-    <add name="DefaultConnection" 
-         connectionString="Data Source=(LocalDB)\MSSQLLocalDB;..." />
-</connectionStrings>
-```
-
 ---
 
 ### 🔐 Autenticação
@@ -140,6 +131,7 @@ X-API-Key: SUA-CHAVE-API-AQUI
     "name": "Nome do Cliente",
     "email": "cliente@exemplo.com"
 }
+
 ```
 
 ### 📝 Exemplo de Uso
