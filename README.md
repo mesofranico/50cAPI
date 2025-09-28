@@ -20,8 +20,6 @@
 - [🎯 Sobre o Projeto](#-sobre-o-projeto)
 - [🚀 Obter Chave API Beta](#-obter-chave-api-beta)
 - [⚙️ Configuração](#️-configuração)
-- [📖 Documentação da API](#-documentação-da-api)
-- [🔧 Desenvolvimento](#-desenvolvimento)
 - [📞 Suporte](#-suporte)
 
 ---
