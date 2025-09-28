@@ -18,7 +18,6 @@
 ## 📋 Índice
 
 - [🎯 Sobre o Projeto](#-sobre-o-projeto)
-- [✨ Funcionalidades](#-funcionalidades)
 - [🚀 Obter Chave API Beta](#-obter-chave-api-beta)
 - [🛠️ Instalação](#️-instalação)
 - [⚙️ Configuração](#️-configuração)
@@ -39,34 +38,6 @@ O **CSMSage API** é um sistema completo de gestão comercial desenvolvido em C#
 - **Base de Dados**: SQL Server integrado
 - **Autenticação**: Sistema de licenças com validação online
 - **API**: RESTful com documentação Swagger integrada
-
----
-
-## ✨ Funcionalidades
-
-### 🏢 Gestão Comercial
-- ✅ **Clientes**: CRUD completo com pesquisa avançada
-- ✅ **Fornecedores**: Gestão de fornecedores e contactos
-- ✅ **Produtos**: Catálogo de produtos com gestão de stock
-- ✅ **Unidades de Medida**: Sistema flexível de unidades
-
-### 📊 Transações e Movimentos
-- ✅ **Transações de Stock**: Entradas, saídas e ajustes
-- ✅ **Transações de Conta**: Movimentos financeiros
-- ✅ **Documentos**: Gestão de documentos comerciais
-- ✅ **Relatórios**: Sistema de relatórios integrado
-
-### 🔌 API REST
-- ✅ **Endpoints Completos**: Todos os módulos disponíveis via API
-- ✅ **Autenticação**: Sistema seguro de chaves API
-- ✅ **Documentação**: Swagger UI integrado
-- ✅ **Validação**: Validação robusta de dados
-
-### 🔐 Sistema de Licenças
-- ✅ **Validação Online**: Verificação automática de licenças
-- ✅ **Gestão Centralizada**: Painel administrativo web
-- ✅ **Licenças Beta**: Acesso gratuito durante fase beta
-- ✅ **Segurança**: Encriptação e proteção de dados
 
 ---
 
