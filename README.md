@@ -108,14 +108,6 @@ Para uma instalação mais simples, pode executar diretamente o executável:
    - Use a interface Swagger para testar endpoints
    - Ou integre diretamente com a sua aplicação
 
-### ⚙️ Configurações Avançadas
-
-#### 🔧 Porta da API
-```csharp
-// Em ApiServer.cs
-private const int DEFAULT_PORT = 8080; // Altere conforme necessário
-```
-
 ---
 
 ### 🔐 Autenticação
@@ -166,13 +158,3 @@ Este projeto é propriedade da **CSMSage** e está protegido por direitos de aut
 - 🚫 Nenhum dado pessoal enviado para servidores externos
 
 ---
-
-<div align="center">
-
-**Desenvolvido com ❤️ pela equipa CSMSage**
-
-[![GitHub](https://img.shields.io/badge/GitHub-CSMSage-black?style=for-the-badge&logo=github)](https://github.com/seu-usuario/CSMSageAPI)
-[![Website](https://img.shields.io/badge/Website-csmsage.com-blue?style=for-the-badge&logo=internet-explorer)](https://www.csmsage.com)
-[![Email](https://img.shields.io/badge/Email-suporte@csmsage.com-red?style=for-the-badge&logo=gmail)](mailto:suporte@csmsage.com)
-
-</div>
