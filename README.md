@@ -134,8 +134,7 @@ X-API-Key: SUA-CHAVE-API-AQUI
 
 - **📧 Email**: opmeso@gmail.com
 - **📞 Telefone**: +351 XXX XXX XXX
-- **🌐 Website**: [[www.csmsage.com](https://50capi.csmanager.ovh/)]([https://www.csmsage.com](https://50capi.csmanager.ovh/))
-- **💬 GitHub Issues**: [Reportar Problemas](https://github.com/seu-usuario/CSMSageAPI/issues)
+- **💬 GitHub Issues**: [Reportar Problemas](https://github.com/mesofranico/50cAPI/issues)
 
 ---
 
