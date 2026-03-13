@@ -1,53 +1,34 @@
-# CSMSage - Advanced API & Licensing System
+# CSMSage - Gestão Inteligente de Licenças e API Sage 50c
 
-O **CSMSage** é uma solução empresarial concebida para fornecer uma camada de API Rest robusta sobre o software **Sage 50c**, acompanhada por um painel de controlo administrativo para gestão de licenciamento e segurança.
+Bem-vindo ao **CSMSage**, a ferramenta definitiva para conectar o seu negócio ao ecossistema Sage 50c de forma moderna, rápida e segura.
 
-## 🚀 Estrutura do Projeto
+## 🌟 O que é o CSMSage?
 
-O ecossistema é composto por dois módulos principais:
+O CSMSage é uma plataforma integrada que permite às empresas e programadores acederem de forma automatizada aos dados do seu software de faturação Sage 50c. Através desta solução, pode integrar a sua loja online, criar apps personalizadas ou gerir licenças de acesso de forma centralizada.
 
-### 1. CSMSage Engine (Servidor .NET)
-Localizado na pasta `CSMSage/`, é o núcleo do sistema.
-- **Tecnologia**: .NET 8.0, ASP.NET Core API.
-- **Função**: Expõe os dados do Sage 50c (Clientes, Documentos, Stocks) via JSON.
-- **Segurança**: Protegido por um Middleware de API Key que valida pedidos contra o servidor de licenciamento.
-- **Documentação**: OpenAPI/Swagger integrada e documentação interativa via Scalar.
+## ✨ Funcionalidades Principais
 
-### 2. Painel de Licenciamento (Web Portal)
-Localizado na pasta `license_panel/`.
-- **Tecnologia**: PHP (Vanilla), MySQL/MariaDB, Bootstrap 5.
-- **Função**: Portal administrativo para:
-    - Geração de chaves de API (Licenças).
-    - Gestão de clientes e organizações.
-    - Monitorização de utilização (Last Used).
-    - Página de registo público para o Programa Beta.
-- **Design**: Estética SaaS moderna, focado na experiência de utilização e rapidez.
+### 🔑 Chaves API Instantâneas
+Gere chaves de acesso únicas para os seus parceiros ou sub-sistemas em segundos. Cada chave garante um acesso seguro e controlado aos seus dados.
 
-## 🛠️ Requisitos e Instalação
+### 🏢 Gestão de Organizações
+Organize os seus acessos por cliente ou empresa. Saiba sempre quem está a utilizar a API, quando foi a última utilização e qual o estado de cada permissão.
 
-### Engine .NET
-1. Certifique-se de ter o **SDK .NET 8.0** instalado.
-2. Configure o ficheiro `appsettings.json` com os detalhes da base de dados do Sage 50c.
-3. Execute o comando:
-   ```bash
-   dotnet watch run
-   ```
+### 🚀 Programa Beta Automático
+Acesso imediato para novos integradores. Através do portal de registo, qualquer parceiro pode solicitar o acesso e obter uma ativação vitalícia instantânea.
 
-### Painel PHP
-1. Requer um servidor web (Apache/Nginx) com **PHP 7.4+**.
-2. SQL: Importe a estrutura da base de dados (tabela `licenses` e `users`).
-3. Configure os detalhes de ligação em `config/database.php`.
+### 📋 Repositório Centralizado
+Visualize todas as suas licenças numa tabela intuitiva. Opções de cópia rápida para facilitar a integração sem erros de digitação.
 
-## 📦 Funcionalidades Principais
-- [x] **API Rest para Sage 50c**: Leitura e escrita de documentos de faturação.
-- [x] **Gestão de Licenças**: Controlo total sobre quem pode aceder à API.
-- [x] **Cópia Rápida**: Botões inteligentes para copiar chaves de acesso.
-- [x] **Programa Beta**: Automatização da entrada de novos parceiros.
-- [x] **Segurança Centralizada**: Validação em tempo real entre o PHP e o C#.
+### 🔒 Segurança de Classe Empresarial
+Proteção total dos seus dados. O sistema garante que apenas pedidos autorizados cheguem ao seu servidor Sage, com monitorização em tempo real.
 
-## 📝 Notas de Versão (Beta)
-*   **Limites de Utilização**: O sistema já transporta limites de utilizadores, com implementação de bloqueio planeada para versões futuras.
-*   **Documentação**: Aceda a `/api/docs` para visualizar o catálogo completo de rotas disponíveis.
+## 📖 Como Começar?
+
+1. **Obter Acesso**: Utilize o portal de Registo Beta para gerar a sua primeira Chave API.
+2. **Consultar Licenças**: Aceda ao painel de administração para gerir, editar ou revogar chaves de acesso conforme necessário.
+3. **Explorar a Documentação**: Utilize o catálogo interativo de rotas para perceber como os dados fluem entre o seu sistema e o Sage 50c.
+4. **Validar Terminal**: Verifique o estado das suas chaves e o histórico de utilização para garantir que tudo está a funcionar conforme planeado.
 
 ---
-© 2026 CSMSage Advanced Licensing | Desenvolvido para máxima performance com Sage 50c.
+© 2026 CSMSage Advanced Licensing | Simplificando a integração com Sage 50c.
