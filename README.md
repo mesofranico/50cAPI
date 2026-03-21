@@ -1,41 +1,45 @@
-# CSMSage - Gestão Inteligente de Licenças e API Sage 50c
+# CSMSage - A Sua Porta de Entrada para o Ecossistema Sage 50c
 
 > [!IMPORTANT]
-> **Acesso Beta Aberto:** Regista-te agora para obteres a tua chave API em [https://50capi.csmanager.ovh/](https://50capi.csmanager.ovh/)
+> **Acesso Beta Aberto:** Registe a sua empresa agora e obtenha a sua chave de ativação instantânea em [https://50capi.csmanager.ovh/](https://50capi.csmanager.ovh/)
 
-Bem-vindo ao **CSMSage**, a ferramenta definitiva para conectar o seu negócio ao ecossistema Sage 50c de forma moderna, rápida e segura.
+Bem-vindo ao **CSMSage**, a solução definitiva para ligar o seu negócio ao software de faturação Sage 50c de forma moderna, segura e sem complicações técnicas.
 
-## 🌟 O que é o CSMSage?
+---
 
-O CSMSage é uma plataforma integrada que permite às empresas e programadores acederem de forma automatizada aos dados do seu software de faturação Sage 50c. Através desta solução, pode integrar a sua loja online, criar apps personalizadas ou gerir licenças de acesso de forma centralizada.
+## 🖥️ Painel de Controlo Inteligente
 
-![Interface do CSMSage](app.jpg)
+Tenha visibilidade total sobre o seu licenciamento. O nosso dashboard permite-lhe gerir as suas chaves de ativação, acompanhar o estado das suas instalações e monitorizar o consumo em tempo real, tudo numa interface intuitiva e premium.
 
-## ✨ Funcionalidades Principais
+![Dashboard do Cliente CSMSage](app.jpg)
 
-### 🔑 Chaves API Instantâneas
-Gere chaves de acesso únicas para os seus parceiros ou sub-sistemas em segundos. Cada chave garante um acesso seguro e controlado aos seus dados.
+### 💎 O que ganha com o CSMSage:
+- **Gestão Centralizada:** Controle todas as suas licenças num único local.
+- **Estado em Tempo Real:** Saiba sempre se a sua integração com o Sage está operacional.
+- **Histórico de Atividade:** Acompanhe cada interação com a sua conta para máxima transparência.
 
-![Exemplo de Rota API](api.jpg)
+---
 
-### 🏢 Gestão de Organizações
-Organize os seus acessos por cliente ou empresa. Saiba sempre quem está a utilizar a API, quando foi a última utilização e qual o estado de cada permissão.
+## 🚀 Integração Técnica Simplificada
 
-### 🚀 Programa Beta Automático
-Acesso imediato para novos integradores. Através do portal de registo, qualquer parceiro pode solicitar o acesso e obter uma ativação vitalícia instantânea.
+Desenvolvemos o CSMSage para que a tecnologia nunca seja um obstáculo. Quer precise de ligar a sua loja online (Shopify, WooCommerce, etc.) ou criar uma app personalizada, a nossa infraestrutura garante que os dados fluam sem erros.
 
-### 📋 Repositório Centralizado
-Visualize todas as suas licenças numa tabela intuitiva. Opções de cópia rápida para facilitar a integração sem erros de digitação.
+![Exemplo de Integração API](api.jpg)
 
-### 🔒 Segurança de Classe Empresarial
-Proteção total dos seus dados. O sistema garante que apenas pedidos autorizados cheguem ao seu servidor Sage, com monitorização em tempo real.
+### 🛠️ Funcionalidades para o Sucesso:
+- **Ativação Instantânea:** Obtenha chaves API em segundos após o registo.
+- **Documentação Interativa:** Guias passo-a-passo e manuais de integração sempre disponíveis.
+- **Segurança de Elite:** Proteção total dos seus dados com monitorização 24/7.
+- **Suporte Especializado:** Fale com técnicos que percebem tanto de Sage como de desenvolvimento moderno.
+
+---
 
 ## 📖 Como Começar?
 
-1. **Obter Acesso**: Utilize o portal de Registo Beta para gerar a sua primeira Chave API.
-2. **Consultar Licenças**: Aceda ao painel de administração para gerir, editar ou revogar chaves de acesso conforme necessário.
-3. **Explorar a Documentação**: Utilize o catálogo interativo de rotas para perceber como os dados fluem entre o seu sistema e o Sage 50c.
-4. **Validar Terminal**: Verifique o estado das suas chaves e o histórico de utilização para garantir que tudo está a funcionar conforme planeado.
+1. **[Registe-se aqui](https://50capi.csmanager.ovh/)**: Crie a sua conta no nosso portal Beta.
+2. **Obtenha a sua Chave**: Gere a sua primeira licença de acesso de forma gratuita.
+3. **Integre**: Utilize a nossa documentação para ligar o seu sistema ao Sage 50c.
+4. **Cresça**: Deixe a gestão técnica connosco e foque-se no que realmente importa: o seu negócio.
 
 ---
-© 2026 CSMSage Advanced Licensing | Simplificando a integração com Sage 50c.
+© 2026 CSMSage Advanced Licensing | A simplificar o futuro da faturação Sage.
