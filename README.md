@@ -1,15 +1,22 @@
 # CSMSage - Gestão Inteligente de Licenças e API Sage 50c
 
+> [!IMPORTANT]
+> **Acesso Beta Aberto:** Regista-te agora para obteres a tua chave API em [https://50capi.csmanager.ovh/](https://50capi.csmanager.ovh/)
+
 Bem-vindo ao **CSMSage**, a ferramenta definitiva para conectar o seu negócio ao ecossistema Sage 50c de forma moderna, rápida e segura.
 
 ## 🌟 O que é o CSMSage?
 
 O CSMSage é uma plataforma integrada que permite às empresas e programadores acederem de forma automatizada aos dados do seu software de faturação Sage 50c. Através desta solução, pode integrar a sua loja online, criar apps personalizadas ou gerir licenças de acesso de forma centralizada.
 
+![Interface do CSMSage](app.jpg)
+
 ## ✨ Funcionalidades Principais
 
 ### 🔑 Chaves API Instantâneas
 Gere chaves de acesso únicas para os seus parceiros ou sub-sistemas em segundos. Cada chave garante um acesso seguro e controlado aos seus dados.
+
+![Exemplo de Rota API](api.jpg)
 
 ### 🏢 Gestão de Organizações
 Organize os seus acessos por cliente ou empresa. Saiba sempre quem está a utilizar a API, quando foi a última utilização e qual o estado de cada permissão.
